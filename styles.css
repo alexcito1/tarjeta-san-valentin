@@ -4,7 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #fae1dd;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .container{
@@ -64,7 +64,7 @@ right: 150px;
 
 .text {
     position: absolute;
-    font-family: "Brush Script MT", cursive;
+    font-family: 'Dancing Script', cursive !important;
     font-size: 28px;
     text-align: center;
     line-height: 25px;
@@ -225,7 +225,7 @@ right: 150px;
    }
 
    .titulo {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive !important;
     font-size: 36px;
     text-align: center;
     color: red; /* Color rojo */
@@ -233,7 +233,7 @@ right: 150px;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 100; /* Para que esté encima de todo */
+    z-index: 9999; /* Para que esté encima de todo */
 }
 
 /* Ajustes para móviles */
