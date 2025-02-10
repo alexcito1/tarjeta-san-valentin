@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #fae1dd;
+    margin-top: 80px;
 }
 
 .container{
@@ -227,13 +228,19 @@ right: 150px;
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
     text-align: center;
-    margin-top: 20px;
-    color: #d62828;
+    color: red; /* Color rojo */
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100; /* Para que esté encima de todo */
 }
 
 /* Ajustes para móviles */
 @media (max-width: 600px) {
     .titulo {
         font-size: 28px;
+        top: 10px; /* Ajuste para que no quede pegado arriba */
     }
 }
+
