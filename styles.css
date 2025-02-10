@@ -65,11 +65,12 @@ right: 150px;
 .text {
     position: absolute;
     font-family: 'Dancing Script', cursive !important;
-    font-size: 28px;
+    font-size: 25px;
     text-align: center;
     line-height: 25px;
     top: 19px;
-    left: 86px;
+    left: 50%;
+    transform: translateX(-50%);
     color: #003049;
 }
 
@@ -226,7 +227,7 @@ right: 150px;
 
    .titulo {
     font-family: 'Dancing Script', cursive !important;
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     color: red; /* Color rojo */
     position: absolute;
