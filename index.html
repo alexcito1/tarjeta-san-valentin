@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="container"> <!-- Clase corregida -->
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy<br>Valentine's<br>Day!</div>
+                <div class="heart"></div>
+            </div>
+            <div class="hearts">
+                <div class="uno"></div>
+                <div class="dos"></div>
+                <div class="tres"></div>
+                <div class="cuatro"></div>
+                <div class="cinco"></div>
+            </div>
+            <div class="sombra"></div>
+        </div>
+    </div>
+
+    <!-- CDN de jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Código jQuery -->
+    <script>
+        $(document).ready(function(){
+            $(".container").mouseenter(function(){
+                $(".card").stop().animate({
+                    top: "-90px"
+                }, "slow");
+            }).mouseleave(function(){
+                $(".card").stop().animate({
+                    top: "5px"
+                }, "slow");
+            });
+        });
+    </script>
+
+</body>
+</html>
