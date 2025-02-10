@@ -222,3 +222,18 @@ right: 150px;
         transform:scaleX(0.85);
     }
    }
+
+   .titulo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    color: #d62828;
+}
+
+/* Ajustes para móviles */
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 28px;
+    }
+}
