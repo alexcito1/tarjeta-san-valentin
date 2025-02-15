@@ -65,7 +65,7 @@ right: 150px;
 .text {
     position: absolute;
     font-family: 'Dancing Script', cursive !important;
-    font-size: 25px;
+    font-size: 25tpx;
     text-align: center;
     line-height: 25px;
     top: 19px;
